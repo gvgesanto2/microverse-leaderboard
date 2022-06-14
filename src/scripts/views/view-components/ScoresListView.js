@@ -3,9 +3,15 @@ import ScoreItemView from './ScoreItemView.js';
 import ViewComponent from './ViewComponent.js';
 
 export default class ScoresListView extends ViewComponent {
-  constructor(initialScores) {
+  constructor(scores) {
     super();
-    this.initialScores = initialScores;
+    this.scores = scores;
+  }
+
+  refreshAll = (parentElemId, newScores) => {
+    this.remove();
+    this.scores = newScores;
+    this.render(parentElemId);
   }
 
   createHtmlElem = () => {
@@ -14,7 +20,7 @@ export default class ScoresListView extends ViewComponent {
       className: 'a-striped-list',
     });
 
-    this.initialScores.forEach((score) => {
+    this.scores.forEach((score) => {
       const scoreItemView = new ScoreItemView(score);
       scoreItemView.appendToParent(scoresList);
     });
