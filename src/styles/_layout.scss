@@ -38,7 +38,9 @@
 
   &__header {
     width: 100%;
+
     @include centerWithFlex;
+
     margin-bottom: 2rem;
 
     &--between {
