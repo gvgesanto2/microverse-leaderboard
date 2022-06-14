@@ -4,7 +4,6 @@
 
 > This is an app that allows users to add theirs scores to the Leaderboard API.
 
-
 ## Built With
 
 - **Languages:**
@@ -21,9 +20,6 @@
   - Atomic Design
   - BEM
   - MVP pattern
-
-## Live Demo
-Click on this link to see this project live demo: [Live Demo Link](https://gvgesanto2.github.io/microverse-todo-list/)
 
 ## Getting Started
 
