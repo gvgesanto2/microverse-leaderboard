@@ -1,0 +1,16 @@
+.m-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 25rem;
+
+  &__input-group > *:not(:last-child) {
+    margin-bottom: 1.6rem;
+  }
+
+  &__btn-group {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 2rem;
+  }
+}

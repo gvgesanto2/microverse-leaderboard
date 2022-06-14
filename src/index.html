@@ -7,34 +7,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Radio+Canada:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
     <title>Leaderboard</title>
   </head>
-  <body class="l-container">
-    <header>
-      <h1 class="a-title">Leaderboard</h1>
+  <body>
+    <header class="m-header">
+      <a href="index.html">
+        <h1 class="a-title">Leaderboard</h1>
+      </a>
     </header>
     <main class="l-main">
-      <section class="l-section">
-        <header class="l-section__header u-flex u-flex--sm">
+      <section id="recent-scores" class="l-section">
+        <header class="l-section__header l-section__header--between">
           <h2 class="a-title--md">Recent scores</h2>
           <button class="a-btn">Refresh</button>
         </header>
-        <table class="a-table">
-          <tr>
-            <td class="a-table__cell">Name: 100</td>
-          </tr>
-          <tr>
-            <td class="a-table__cell">Name: 100</td>
-          </tr>
-          <tr>
-            <td class="a-table__cell">Name: 100</td>
-          </tr>
-        </table>
+        <ul class="a-striped-list">
+          <li>Name:100</li>
+          <li>Name:100</li>
+          <li>Name:100</li>
+          <li>Name:100</li>
+          <li>Name:100</li>
+          <li>Name:100</li>
+        </ul>
       </section>
-      <section class="l-section">
+      <section id="add-score" class="l-section">
         <header class="l-section__header">
           <h2 class="a-title--md">Add your score</h2>
         </header>

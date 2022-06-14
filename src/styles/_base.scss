@@ -1,0 +1,43 @@
+/* Resetting */
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+/* Base Styles */
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Radio Canada', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  background-color: var(--grey-light-100);
+  color: var(--color-text);
+}
+
+input,
+button {
+  font-family: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}

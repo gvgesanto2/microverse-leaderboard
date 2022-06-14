@@ -1,0 +1,6 @@
+.m-header {
+  @include centerWithFlex;
+  height: var(--header-height);
+  background-color: var(--grey-dark-800);
+  color: var(--white);
+}
