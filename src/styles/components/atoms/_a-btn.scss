@@ -1,0 +1,13 @@
+.a-btn {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--white);
+  background-color: var(--color-primary);
+  border-radius: 4px;
+  padding: 0.8rem 1.6rem;
+  transition: all 0.2s;
+
+  &:hover {
+    filter: brightness(0.85);
+  }
+}

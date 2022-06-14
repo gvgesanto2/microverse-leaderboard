@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Radio+Canada:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Leaderboard</title>
+  </head>
+  <body>
+    <header class="m-header">
+      <a href="index.html">
+        <h1 class="a-title">Leaderboard</h1>
+      </a>
+    </header>
+    <main class="l-main">
+      <section id="recent-scores" class="l-section">
+        <header class="l-section__header l-section__header--between">
+          <h2 class="a-title--md">Recent scores</h2>
+          <button type="button" class="a-btn">Refresh</button>
+        </header>
+        <div id="scores-list-container"></div>
+      </section>
+      <section id="add-score" class="l-section">
+        <header class="l-section__header">
+          <h2 class="a-title--md">Add your score</h2>
+        </header>
+        <form id="add-score-form" action="#" class="m-form">
+          <div class="m-form__input-group">
+            <input
+              placeholder="Enter your name"
+              class="a-input"
+              type="text"
+              name="name"
+              aria-label="Enter your name"
+              required
+            />
+            <input
+              placeholder="Enter your score"
+              class="a-input"
+              type="text"
+              name="score"
+              aria-label="Enter your score"
+              required
+            />
+          </div>
+          <div class="m-form__btn-group">
+            <button type="submit" class="a-btn">Submit</button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

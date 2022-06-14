@@ -1,0 +1,38 @@
+/* Variables */
+
+:root {
+  /* Color Palette */
+  --green-400: #1db954;
+  --grey-dark-600: #58585a;
+  --grey-dark-750: #333;
+  --grey-dark-800: #272a32;
+  --grey-light-100: #f4f4f4;
+  --grey-light-200: #cfd8dc;
+  --grey-light-300: #b3bac5;
+  --white: #fff;
+
+  /* Other Color Variables */
+  --color-text: var(--grey-dark-750);
+  --color-primary: var(--green-400);
+
+  // Other variables
+  --separator-line: 1px solid var(--grey-light-300);
+
+  // Header
+  --header-height: 8rem;
+}
+
+// Breakpoints
+$breakpoints: (
+  // 48em = 768px
+  'screen-sm': 48em,
+  // 100em = 1600px
+  'screen-hg': 100em,
+  // 160em = 2560px
+  'screen-xhg': 160em
+);
+
+$bp-types: (
+  'max': max-width,
+  'min': min-width,
+);
