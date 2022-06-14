@@ -8,11 +8,11 @@ export default class ScoreItemView extends ViewComponent {
   }
 
   createHtmlElem = () => {
-    const { playerName, score } = this.scoreData;
+    const { user, score } = this.scoreData;
 
     const scoreItem = createHtmlElement({
       tag: 'li',
-      text: `${playerName}: ${score}`,
+      text: `${user}: ${score}`,
     });
 
     return scoreItem;
